@@ -1,0 +1,31 @@
+
+
+data = read.csv("polution_dataSet1.csv")
+# 
+# cor.test(data$pollution, data$dew, method = c("pearson"))
+# cor.test(data$pollution, data$temp, method = c("pearson"))
+# cor.test(data$pollution, data$pressure, method = c("pearson"))
+# cor.test(data$pollution, data$wind_dir, method = c("pearson"))
+# cor.test(data$pollution, data$wind_spd, method = c("pearson"))
+# cor.test(data$pollution, data$snow, method = c("pearson"))
+# cor.test(data$pollution, data$rain, method = c("pearson"))
+
+
+linear_model1 <- lm(data$pollution ~ data$dew , data = data)
+linear_model2 <- lm(data$pollution ~ data$temp , data = data)
+linear_model3 <- lm(data$pollution ~ data$pressure , data = data)
+linear_model4 <- lm(data$pollution ~ data$wind_dir , data = data)
+linear_model5 <- lm(data$pollution ~ data$wind_spd , data = data)
+linear_model6 <- lm(data$pollution ~ data$snow , data = data)
+linear_model7 <- lm(data$pollution ~ data$rain , data = data)
+
+
+summary(linear_model1)$adj.r.squared
+summary(linear_model2)$adj.r.squared
+summary(linear_model3)$adj.r.squared
+summary(linear_model4)$adj.r.squared
+summary(linear_model5)$adj.r.squared
+summary(linear_model6)$adj.r.squared
+summary(linear_model7)$adj.r.squared
+
+# summary(linear_model)$r.squared

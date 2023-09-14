@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590918438795.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "76767683",
+    "id" : "976D41EB",
+    "lastKnownWriteTime" : 1591357415,
+    "last_content_update" : 1591357415540,
+    "path" : "C:/Users/Mahsa/Desktop/University/term2/neuralnet/mini2/1-7.R",
+    "project_path" : "1-7.R",
+    "properties" : {
+        "cursorPosition" : "30,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
