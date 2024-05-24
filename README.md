@@ -29,7 +29,7 @@ We gained hands-on experience building deep neural network models using Python a
    - [notebook.ipynb](notebook.ipynb)
    - [description](description)
    - [report](report)
-   - [polution_dataSet](polution_dataSet)
+   - [pollution_dataSet](polution_dataSet)
 
 
 ## Acknowledgements
