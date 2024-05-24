@@ -16,21 +16,20 @@ We gained hands-on experience building deep neural network models using Python a
 ## Repository Structure
 
 
-├── README.md
-├── CA1_associative_memory/
-│   ├── notebook.ipynb/
-│   ├── description/
-│   └── report/
-├── CA2_/
-│   ├── notebook.ipynb/
-│   ├── description/
-│   └── report/
-├── CA3_RNNs/
-│   ├── notebook.ipynb/
-│   ├── description/
-│   ├── polution_dataSet
-│   └── report/
-└── 
+- [README.md](README.md)
+- [CA1_associative_memory](CA1_associative_memory/)
+   - [notebook.ipynb](notebook.ipynb)
+   - [description](description)
+   - [report](report)
+- [CA2_](CA2/)
+   - [notebook.ipynb](notebook.ipynb)
+   - [description](description)
+   - [report](report)
+- [CA3_RNNs](CA3_RNNs/)
+   - [notebook.ipynb](notebook.ipynb)
+   - [description](description)
+   - [report](report)
+   - [polution_dataSet](polution_dataSet)
 
 
 ## Acknowledgements
